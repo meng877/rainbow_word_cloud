@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 font_path = 'C:/Windows/Fonts/msyh.ttc'      # Win 雅黑
 # font_path = '/System/Library/Fonts/PingFang.ttc'  # mac 苹黑
 bg_color  = 'black'
-color_map = 'prism'
+color_map = 'viridis'
 width_px  = 1080
 height_px = 720
 # ======================
@@ -28,4 +28,4 @@ plt.imshow(wc, interpolation='bilinear')
 plt.axis('off')
 plt.tight_layout(pad=0)
 plt.savefig('rainbow_wallpaper.png', dpi=300)
-print('✅ 彩虹弹幕图已生成:rainbow_wallpaper.png')
+print('✅ 彩虹弹幕图已生成：rainbow_wallpaper.png')
